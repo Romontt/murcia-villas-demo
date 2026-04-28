@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murcia Villas & Chalets | La Fortuna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="flex justify-between items-center px-8 py-6 bg-white shadow-sm">
+        <div class="text-2xl font-bold tracking-tighter text-amber-700">MURCIA <span class="text-slate-400 font-light text-sm uppercase block tracking-widest">Villas & Chalets</span></div>
+        <div class="hidden md:flex space-x-8 font-medium text-sm uppercase">
+            <a href="#" class="hover:text-amber-700 transition">Villas</a>
+            <a href="#" class="hover:text-amber-700 transition">La Fortuna</a>
+            <a href="#" class="hover:text-amber-700 transition">Contacto</a>
+        </div>
+        <a href="https://wa.me/50686142550" class="bg-amber-700 text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-amber-800 transition">RESERVAR YA</a>
+    </nav>
+
+    <section class="hero-bg h-[80vh] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Tu refugio privado en el paraíso</h1>
+            <p class="text-xl mb-8 opacity-90 font-light italic">Vive la experiencia de La Fortuna como nunca antes.</p>
+            <div class="bg-white/10 backdrop-blur-md p-6 rounded-2xl inline-flex flex-wrap gap-4 justify-center border border-white/20">
+                <div class="text-left px-4">
+                    <label class="block text-xs uppercase opacity-70">Entrada</label>
+                    <input type="date" class="bg-transparent border-none outline-none font-bold">
+                </div>
+                <div class="text-left px-4 border-l border-white/20">
+                    <label class="block text-xs uppercase opacity-70">Salida</label>
+                    <input type="date" class="bg-transparent border-none outline-none font-bold">
+                </div>
+                <button class="bg-amber-600 hover:bg-amber-700 px-8 py-3 rounded-xl font-bold transition">VER DISPONIBILIDAD</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto py-20 px-6">
+        <h2 class="text-3xl font-bold mb-2 text-center text-slate-900 italic font-serif">Nuestras Propiedades</h2>
+        <p class="text-center text-slate-500 mb-12 uppercase tracking-widest text-xs">Exclusividad y confort en cada rincón</p>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 group hover:-translate-y-2 transition duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Chalet A-Frame Principal</h3>
+                    <div class="flex gap-4 text-slate-400 text-sm mb-4">
+                        <span><i class="fa fa-wifi"></i> WiFi</span>
+                        <span><i class="fa fa-swimming-pool"></i> Piscina</span>
+                        <span><i class="fa fa-snowflake"></i> A/C</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-amber-700 font-bold text-lg">$85 <small class="text-slate-400 font-normal">/noche</small></span>
+                        <button class="text-amber-700 font-bold border-b-2 border-amber-700 py-1">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 group hover:-translate-y-2 transition duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Villa de Lujo con Cascadas</h3>
+                    <div class="flex gap-4 text-slate-400 text-sm mb-4">
+                        <span><i class="fa fa-wifi"></i> WiFi</span>
+                        <span><i class="fa fa-swimming-pool"></i> Piscina</span>
+                        <span><i class="fa fa-snowflake"></i> A/C</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-amber-700 font-bold text-lg">$140 <small class="text-slate-400 font-normal">/noche</small></span>
+                        <button class="text-amber-700 font-bold border-b-2 border-amber-700 py-1">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl overflow-hidden shadow-xl shadow-slate-200/50 group hover:-translate-y-2 transition duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Cabaña del Bosque</h3>
+                    <div class="flex gap-4 text-slate-400 text-sm mb-4">
+                        <span><i class="fa fa-wifi"></i> WiFi</span>
+                        <span><i class="fa fa-tree"></i> Bosque</span>
+                        <span><i class="fa fa-snowflake"></i> A/C</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-amber-700 font-bold text-lg">$70 <small class="text-slate-400 font-normal">/noche</small></span>
+                        <button class="text-amber-700 font-bold border-b-2 border-amber-700 py-1">Ver detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-12 px-8 text-center">
+        <p class="opacity-50 text-sm mb-4 font-light">© 2026 Murcia Villas & Chalets - La Fortuna, Costa Rica</p>
+        <div class="flex justify-center space-x-6 text-xl">
+            <i class="fab fa-instagram hover:text-amber-500 cursor-pointer"></i>
+            <i class="fab fa-facebook hover:text-amber-500 cursor-pointer"></i>
+            <i class="fab fa-whatsapp hover:text-amber-500 cursor-pointer"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
